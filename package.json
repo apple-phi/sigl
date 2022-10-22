@@ -1,0 +1,20 @@
+{
+  "name": "metaballs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "rollup-plugin-glslify": "^1.2.1",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "glsl-hsl2rgb": "^1.1.0",
+    "glsl-random": "^0.0.5",
+    "regl": "^2.1.0"
+  }
+}
